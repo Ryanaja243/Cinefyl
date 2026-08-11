@@ -7,8 +7,10 @@ import { LogOut, Menu, Search, X } from 'lucide-react'
 import { api, getError, initials, sanitizeUser, type User } from '@/lib/cinefyl'
 import { toast } from 'sonner'
 
+
+
 type AuthContextValue = { user: User | null; loading: boolean; setUser: (user: User | null) => void; logout: () => Promise<void> }
-const AuthContext = createContext<AuthContextValue>({ user: null, loading: true, setUser: () => {}, logout: async () => {} })
+const AuthContext = createContext<AuthContextValue>({ user: null, loading: true, setUser: () => { }, logout: async () => { } })
 export function useAuth() { return useContext(AuthContext) }
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null); const [loading, setLoading] = useState(true)
