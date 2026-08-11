@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+@theme inline { --color-canvas: #FFE9CE; --color-ink: #222222; --color-surface: #FFFFFF; --color-warning: #D97706; --font-serif: 'Georgia', 'Times New Roman', serif; --font-mono: 'JetBrains Mono', ui-monospace, monospace; }
+:root { color-scheme: light; --background: #FFE9CE; --foreground: #222222; --card: #FFFFFF; --card-foreground: #222222; --primary: #222222; --primary-foreground: #FFFFFF; --border: #222222; --radius: 0.5rem; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; background: #FFE9CE; }
+body { margin: 0; background: #FFE9CE; color: #222222; font-family: Georgia, 'Times New Roman', serif; }
+button, a, input, textarea { -webkit-tap-highlight-color: transparent; }
+button, a { touch-action: manipulation; }
+input, textarea, select { font-size: 16px; }
+::selection { background: #222222; color: #FFFFFF; }

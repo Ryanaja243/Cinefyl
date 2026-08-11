@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "name": "user test",
+      "username": "user",
+      "email": "user@gmail.com",
+      "password": "$2b$10$3Ee2yvgELYrxNcK1tEn83eGwTzqwwIewirrwyAr.mbxZmniqO3hVu",
+      "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=user",
+      "_id": "6a7af041bdbd65ebc9a9d968",
+      "isAdmin": false
+    }
+  ],
+  "watchlists": [
+    {
+      "userId": "6a7af041bdbd65ebc9a9d968",
+      "imdbID": "tt1375666",
+      "title": "Inception",
+      "year": "2010",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "_id": "6a7af05abdbd65ebc9a9d969",
+      "createdAt": "2026-08-11T09:50:18.702Z"
+    },
+    {
+      "userId": "6a7af041bdbd65ebc9a9d968",
+      "imdbID": "tt0468569",
+      "title": "The Dark Knight",
+      "year": "2008",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "_id": "6a7af05bbdbd65ebc9a9d96a",
+      "createdAt": "2026-08-11T09:50:19.526Z",
+      "userRating": 4
+    },
+    {
+      "userId": "6a7af041bdbd65ebc9a9d968",
+      "imdbID": "tt2463208",
+      "title": "The Adam Project",
+      "year": "2022",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNWU1NDJlYWUtYWE1OC00MGVlLTliNzYtMjg4OTk0MWE4MDQ4XkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+      "_id": "6a7af081bdbd65ebc9a9d96b",
+      "createdAt": "2026-08-11T09:50:57.690Z"
+    },
+    {
+      "userId": "6a7af041bdbd65ebc9a9d968",
+      "imdbID": "tt1877830",
+      "title": "The Batman",
+      "year": "2022",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmU5NGJlMzAtMGNmOC00YjJjLTgyMzUtNjAyYmE4Njg5YWMyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "_id": "6a7af0bbbdbd65ebc9a9d96c",
+      "createdAt": "2026-08-11T09:51:55.038Z",
+      "userRating": 9
+    }
+  ]
+}

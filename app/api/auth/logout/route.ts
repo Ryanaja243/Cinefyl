@@ -1,0 +1,14 @@
+import { NextResponse } from "next/server";
+import { deleteSession } from "@/lib/session";
+
+export async function POST() {
+  try {
+    await deleteSession();
+    return NextResponse.json({ message: "Logged out successfully" }, { status: 200 });
+  } catch (error: any) {
+    return NextResponse.json(
+      { message: "Failed to log out", error: error.message },
+      { status: 500 }
+    );
+  }
+}
